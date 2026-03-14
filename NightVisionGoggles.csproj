@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-    <AssemblyName>BlackMossTemplate</AssemblyName>
-    <Product>BlackMossTemplate</Product>
+    <Product>Night-Vision-Goggles</Product>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
@@ -11,10 +10,10 @@
 			https://nuget.bepinex.dev/v3/index.json;
 			https://nuget.samboy.dev/v3/index.json
 		</RestoreAdditionalProjectSources>
-    <RootNamespace>BlackMossTemplate</RootNamespace>
     <Platforms>AnyCPU;x64;x86</Platforms>
-    <PackageProjectUrl>https://github.com/Black-Moss/BlackMossTemplate</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Black-Moss/BlackMossTemplate</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Black-Moss/Night-Vision-Goggles</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Black-Moss/Night-Vision-Goggles</RepositoryUrl>
+    <PackageId>NightVisionGoggles</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -47,7 +46,10 @@
       <HintPath>E:\CasualtiesUnknownDemo\CasualtiesUnknown_Data\Managed\Mono.Security.dll</HintPath>
     </Reference>
     <Reference Include="MoreMakeshiftGuns">
-      <HintPath>..\..\..\Downloads\更多临时武器V1.0.1\YUNAndYiJin.MoreMakeshiftGuns\MoreMakeshiftGuns.dll</HintPath>
+      <HintPath>E:\DHDD\Downloads\更多临时武器V1.0.1\YUNAndYiJin.MoreMakeshiftGuns\MoreMakeshiftGuns.dll</HintPath>
+    </Reference>
+    <Reference Include="MossLib">
+      <HintPath>E:\CasualtiesUnknownDemo\BepInEx\plugins\Moss Lib\MossLib.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:\CasualtiesUnknownDemo\CasualtiesUnknown_Data\Managed\netstandard.dll</HintPath>
